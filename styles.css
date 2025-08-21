@@ -24,7 +24,8 @@ body {
     font-family: Montserrat;
     font-weight: 500;
     font-size: 14px;
-    color: hsl(228, 12%, 48%)
+    color: hsl(228, 12%, 48%);
+    margin-top: 0;
 }
 
 .product-name {
@@ -86,9 +87,6 @@ body {
 }
 
 @media (width > 600px) {
-    .product-img-container {
-        width: 50%;
-    }
 
     .product-img {
         width: 100%;
@@ -101,11 +99,12 @@ body {
     .product-preview-card {
         display: flex;
         flex-direction: row;
-        max-width: 700px;
+        max-width: 600px;
     }
 
     .details-container {
-        width: 50%;
-        padding: 3em;
+        width: 80%;
+        padding: 2em;
+        align-self: center;
     }
 }
