@@ -69,9 +69,10 @@ body {
     background-color: hsl(158, 36%, 37%);
     border-radius: 0.5em;
     margin-top: 1em;
+    text-decoration: none;
 }
 
-.add-cart-button:hover {
+.add-cart-button:hover, .add-cart-button:focus {
     background-color: hsl(158, 42%, 18%);
 }
 
